@@ -11,3 +11,8 @@ dependencies = ["core"]
 name = "test-contract"
 source = "member"
 dependencies = ["std"]
+
+[[package]]
+name = "test-library"
+source = "member"
+dependencies = ["std"]
