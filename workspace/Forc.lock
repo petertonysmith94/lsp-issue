@@ -10,7 +10,10 @@ dependencies = ["core"]
 [[package]]
 name = "test-contract"
 source = "member"
-dependencies = ["std"]
+dependencies = [
+    "std",
+    "test-library",
+]
 
 [[package]]
 name = "test-library"
